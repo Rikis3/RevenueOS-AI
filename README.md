@@ -10,7 +10,7 @@
 
 A modern, high-performance Revenue Analytics platform built to process thousands of CRM records in milliseconds while providing predictive AI insights, all wrapped in a pixel-perfect Salesforce Lightning Design System (SLDS) replica.
 
-[Explore the Live Demo](https://frontend-lubbkrawj-prasuns-projects-bd0bf195.vercel.app) · [View Architecture](#-architecture) · [Containerization Guide](AI_HANDOVER_CONTEXT.md)
+[Explore the Live Demo](https://frontend-prasuns-projects-bd0bf195.vercel.app) · [View Architecture](#-architecture) · [Containerization Guide](AI_HANDOVER_CONTEXT.md)
 
 </div>
 
