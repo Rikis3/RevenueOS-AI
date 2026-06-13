@@ -1,0 +1,76 @@
+user_id,role,manager_id,region_id,name
+MGR-0,Manager,,REG-0,Allison Hill
+MGR-1,Manager,,REG-1,Noah Rhodes
+MGR-2,Manager,,REG-2,Angie Henderson
+MGR-3,Manager,,REG-3,Daniel Wagner
+MGR-4,Manager,,REG-4,Cristian Santos
+AE-0,Account Executive,MGR-0,REG-0,Connie Lawrence
+AE-1,Account Executive,MGR-1,REG-1,Abigail Shaffer
+AE-2,Account Executive,MGR-2,REG-2,Gina Moore
+AE-3,Account Executive,MGR-3,REG-3,Gabrielle Davis
+AE-4,Account Executive,MGR-4,REG-4,Ryan Munoz
+AE-5,Account Executive,MGR-0,REG-0,Monica Herrera
+AE-6,Account Executive,MGR-1,REG-1,Jamie Arnold
+AE-7,Account Executive,MGR-2,REG-2,Lisa Hensley
+AE-8,Account Executive,MGR-3,REG-3,Michele Williams
+AE-9,Account Executive,MGR-4,REG-4,Dylan Miller
+AE-10,Account Executive,MGR-0,REG-0,Brian Ramirez
+AE-11,Account Executive,MGR-1,REG-1,Holly Wood
+AE-12,Account Executive,MGR-2,REG-2,Derek Zuniga
+AE-13,Account Executive,MGR-3,REG-3,Lisa Jackson
+AE-14,Account Executive,MGR-4,REG-4,Carla Gray
+AE-15,Account Executive,MGR-0,REG-0,Margaret Hawkins DDS
+AE-16,Account Executive,MGR-1,REG-1,Patty Perez
+AE-17,Account Executive,MGR-2,REG-2,Ethan Adams
+AE-18,Account Executive,MGR-3,REG-3,Tommy Walter
+AE-19,Account Executive,MGR-4,REG-4,Matthew Foster
+SDR-0,SDR,MGR-0,REG-0,Judy Baker
+SDR-1,SDR,MGR-1,REG-1,Justin Baker
+SDR-2,SDR,MGR-2,REG-2,Stephanie Ross
+SDR-3,SDR,MGR-3,REG-3,Zachary Hicks
+SDR-4,SDR,MGR-4,REG-4,Anthony Rodriguez
+SDR-5,SDR,MGR-0,REG-0,Rebecca Henderson
+SDR-6,SDR,MGR-1,REG-1,James Ferrell
+SDR-7,SDR,MGR-2,REG-2,Tricia Valencia
+SDR-8,SDR,MGR-3,REG-3,Nathan Maldonado
+SDR-9,SDR,MGR-4,REG-4,Debra Davidson
+SDR-10,SDR,MGR-0,REG-0,Jeffrey Chavez
+SDR-11,SDR,MGR-1,REG-1,Sherri Baker
+SDR-12,SDR,MGR-2,REG-2,Cassandra Gaines
+SDR-13,SDR,MGR-3,REG-3,Elizabeth Fowler
+SDR-14,SDR,MGR-4,REG-4,Brittany Farmer
+SDR-15,SDR,MGR-0,REG-0,Paula Moreno
+SDR-16,SDR,MGR-1,REG-1,Fred Smith
+SDR-17,SDR,MGR-2,REG-2,Sherry Decker
+SDR-18,SDR,MGR-3,REG-3,Anthony Humphrey
+SDR-19,SDR,MGR-4,REG-4,Angelica Tucker
+SDR-20,SDR,MGR-0,REG-0,Philip Cannon
+SDR-21,SDR,MGR-1,REG-1,John Pierce
+SDR-22,SDR,MGR-2,REG-2,Shane Henderson
+SDR-23,SDR,MGR-3,REG-3,Joshua Blair
+SDR-24,SDR,MGR-4,REG-4,Eric Carney
+SDR-25,SDR,MGR-0,REG-0,Jessica Holmes
+SDR-26,SDR,MGR-1,REG-1,Danny Morgan
+SDR-27,SDR,MGR-2,REG-2,Crystal Robinson
+SDR-28,SDR,MGR-3,REG-3,Mark Perez
+SDR-29,SDR,MGR-4,REG-4,Shannon Jones
+SDR-30,SDR,MGR-0,REG-0,Michael Lewis
+SDR-31,SDR,MGR-1,REG-1,Timothy Duncan
+SDR-32,SDR,MGR-2,REG-2,Richard Aguirre
+SDR-33,SDR,MGR-3,REG-3,Brent Jordan
+SDR-34,SDR,MGR-4,REG-4,John Daniel
+SDR-35,SDR,MGR-0,REG-0,Victoria Garcia
+SDR-36,SDR,MGR-1,REG-1,Gerald Hensley
+SDR-37,SDR,MGR-2,REG-2,Connor West
+SDR-38,SDR,MGR-3,REG-3,Donald Wright
+SDR-39,SDR,MGR-4,REG-4,Jessica Callahan
+SDR-40,SDR,MGR-0,REG-0,Amber Kidd
+SDR-41,SDR,MGR-1,REG-1,Tracy House
+SDR-42,SDR,MGR-2,REG-2,Carol Tucker
+SDR-43,SDR,MGR-3,REG-3,James Brown
+SDR-44,SDR,MGR-4,REG-4,William Baker
+SDR-45,SDR,MGR-0,REG-0,Jordan Henderson
+SDR-46,SDR,MGR-1,REG-1,Whitney Peters
+SDR-47,SDR,MGR-2,REG-2,Brittney Phillips
+SDR-48,SDR,MGR-3,REG-3,Lauren Daniels
+SDR-49,SDR,MGR-4,REG-4,Amy Silva

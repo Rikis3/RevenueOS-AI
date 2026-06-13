@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: gold_funnel_metrics
+    description: "Comprehensive lead-to-revenue funnel tracking for the RevOps Manager."
+    columns:
+      - name: cohort_month
+        description: "Month the lead was created."
+      - name: volume_leads
+        description: "Total Leads"
+      - name: volume_mqls
+        description: "Total MQLs"
+      - name: volume_sqls
+        description: "Total SQLs"
+      - name: volume_won
+        description: "Total Closed Won Opportunities"
+      - name: conversion_lead_to_mql
+        description: "Percentage of Leads that became MQLs."
+      - name: conversion_mql_to_sql
+        description: "Percentage of MQLs that became SQLs."
+      - name: conversion_sql_to_won
+        description: "Percentage of SQLs that became Closed Won."
+
+  - name: gold_sdr_performance
+    description: "SDR efficiency and output metrics."
+    columns:
+      - name: sdr_id
+        description: "Foreign key to users table for the SDR."
+      - name: total_activities
+        description: "Count of calls, emails, and LinkedIn messages."
+      - name: sqls_generated
+        description: "Count of SQLs sourced by this SDR."
+      - name: activity_to_sql_ratio
+        description: "Total activities divided by SQLs generated."

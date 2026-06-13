@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: gold_executive_kpis
+    description: "High-level North Star metrics for the C-Suite."
+    columns:
+      - name: reporting_month
+        description: "The month of the aggregated data."
+      - name: total_arr
+        description: "Total active Annual Recurring Revenue."
+      - name: net_new_arr
+        description: "ARR from newly closed-won deals in the reporting period."
+      - name: blended_cac
+        description: "Total Sales & Marketing Spend divided by total new customers acquired."
+      - name: pipeline_coverage_ratio
+        description: "Total open pipeline for the quarter divided by the quarterly revenue quota."
+
+  - name: gold_forecast_inputs
+    description: "Data-driven forecast modeling for the CRO."
+    columns:
+      - name: reporting_quarter
+        description: "The target quarter."
+      - name: rep_commit
+        description: "The manual revenue forecast committed by the sales team."
+      - name: ai_predictive_forecast
+        description: "The data-driven forecast based on pipeline velocity and historical stage conversion probabilities."
+      - name: forecast_variance
+        description: "The percentage difference between the rep commit and the AI prediction."

@@ -1,0 +1,6 @@
+region_id,region_name,sub_region
+REG-0,North America,NA
+REG-1,EMEA,EU
+REG-2,APAC,AP
+REG-3,LATAM,LA
+REG-4,India,IN

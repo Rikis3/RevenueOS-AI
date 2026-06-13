@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: gold_pipeline_velocity
+    description: "Metrics for the Sales Director to monitor pipeline health and rep execution."
+    columns:
+      - name: rep_id
+        description: "Account Executive ID"
+      - name: open_pipeline
+        description: "Total ARR value of opportunities currently in an open stage."
+      - name: average_deal_size
+        description: "Average ARR of closed-won deals over the last 90 days."
+      - name: sales_cycle_length_days
+        description: "Average days from opportunity creation to closed-won."
+      - name: win_rate
+        description: "Percentage of opportunities won vs lost."
+      - name: pipeline_velocity
+        description: "(Open Pipeline * Win Rate) / Sales Cycle Length"
+
+  - name: gold_opportunity_risk
+    description: "Opportunity-level risk scoring to detect stalling deals."
+    columns:
+      - name: opportunity_id
+        description: "Foreign key to fct_opportunities"
+      - name: days_in_current_stage
+        description: "Number of days the deal has been sitting in its current stage."
+      - name: days_since_last_activity
+        description: "Number of days since the last logged email, call, or meeting."
+      - name: risk_status
+        description: "Categorical risk score (Low, Medium, High) based on aging and activity."
